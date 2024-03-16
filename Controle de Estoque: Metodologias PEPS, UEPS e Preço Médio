@@ -1,0 +1,61 @@
+Neste guia, vamos abordar as metodologias de controle de estoque PEPS (Primeiro que Entra, Primeiro que Sai), UEPS (Último que Entra, Primeiro que Sai) e Preço Médio. Essas técnicas são fundamentais para empresas gerenciarem seus estoques de forma eficiente, garantindo uma gestão adequada dos recursos e evitando prejuízos com produtos obsoletos ou vencidos. 
+
+### Metodologia PEPS (Primeiro que Entra, Primeiro que Sai)
+
+A metodologia PEPS baseia-se no princípio de que os produtos que entraram primeiro no estoque são os primeiros a serem vendidos ou utilizados na produção. Aqui está um guia passo a passo para implementar o PEPS:
+
+1. Registro de Entrada:
+   - Registre todas as entradas de produtos no estoque, incluindo data de entrada, quantidade e custo unitário.
+
+2. Registro de Saída:
+   - Ao vender um produto ou utilizá-lo na produção, registre a data da saída, a quantidade e o preço de venda ou custo de produção.
+
+3. Cálculo do Custo dos Produtos Vendidos (CPV):
+   - Para calcular o custo dos produtos vendidos, utilize os preços de compra dos produtos mais antigos que ainda estão no estoque.
+
+4. Atualização do Estoque:
+   - Após cada venda ou uso na produção, atualize o estoque subtraindo a quantidade vendida ou utilizada.
+
+5. Avaliação do Estoque Final:
+   - O estoque final será avaliado com base nos produtos mais recentes que entraram no estoque, conforme o método PEPS.
+
+### Metodologia UEPS (Último que Entra, Primeiro que Sai)
+
+A metodologia UEPS, por outro lado, considera que os produtos mais recentes a entrarem no estoque são os primeiros a serem vendidos ou utilizados. Aqui está um guia para implementar o UEPS:
+
+1. Registro de Entrada:
+   - Registre todas as entradas de produtos no estoque, incluindo data de entrada, quantidade e custo unitário.
+
+2. Registro de Saída:
+   - Ao vender um produto ou utilizá-lo na produção, registre a data da saída, a quantidade e o preço de venda ou custo de produção.
+
+3. Cálculo do Custo dos Produtos Vendidos (CPV):
+   - Para calcular o custo dos produtos vendidos, utilize os preços de compra dos produtos mais recentes que ainda estão no estoque.
+
+4.  Atualização do Estoque:
+   - Após cada venda ou uso na produção, atualize o estoque subtraindo a quantidade vendida ou utilizada.
+
+5. Avaliação do Estoque Final:
+   - O estoque final será avaliado com base nos produtos mais antigos que ainda estão no estoque, conforme o método UEPS.
+
+### Metodologia Preço Médio
+
+A metodologia do Preço Médio envolve o cálculo do custo médio ponderado dos produtos em estoque. 
+Aqui está um guia para implementar o Preço Médio:
+
+1. Registro de Entrada:
+   - Registre todas as entradas de produtos no estoque, incluindo data de entrada, quantidade e custo unitário.
+
+2. Cálculo do Preço Médio:
+   - Para calcular o preço médio ponderado, some o custo total de todos os produtos em estoque e divida pelo total de unidades em estoque.
+
+3. Registro de Saída:
+   - Ao vender um produto ou utilizá-lo na produção, registre a data da saída, a quantidade e o preço de venda ou custo de produção.
+
+4. Atualização do Estoque:
+   - Após cada venda ou uso na produção, atualize o estoque e recalcule o preço médio ponderado, se necessário.
+
+5. Avaliação do Estoque Final:
+   - O estoque final será avaliado com base no preço médio ponderado dos produtos em estoque.
+
+Seguindo esses passos, você poderá implementar eficazmente as metodologias de controle de estoque PEPS, UEPS e Preço Médio em sua empresa, garantindo uma gestão eficiente e precisa do seu estoque.
